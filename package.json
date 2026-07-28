@@ -1,0 +1,14 @@
+{
+  "name": "hayle-monitoring-platform",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Hayle Estuary monitoring platform",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check app.js && node --check server.js && node tools/validate-project-files.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

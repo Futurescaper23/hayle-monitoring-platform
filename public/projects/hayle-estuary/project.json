@@ -1,0 +1,77 @@
+{
+  "id": "hayle-estuary",
+  "name": "Hayle Estuary Monitoring System",
+  "shortName": "Hayle Estuary Monitoring",
+  "description": "First delivery workspace for Hayle Estuary survey imagery, section profiles, and baseline monitoring context from the Friday 17 July 2026 survey.",
+  "status": "Baseline survey loaded",
+  "selectorSummary": "Single-survey Hayle setup with three monitoring areas and sections enabled where exports are available.",
+  "singleScanMessage": "This first Hayle delivery is built from the Friday 17 July 2026 baseline survey. Repeat-survey change views will unlock once a second comparable survey round has been added.",
+  "site": {
+    "name": "Hayle Estuary",
+    "county": "Cornwall",
+    "country": "England",
+    "context": "This first Hayle rollout uses the FutureScaping monitoring-platform structure in a simpler baseline state, with three areas and one survey round."
+  },
+  "programme": {
+    "cadence": "Baseline survey",
+    "objectiveShort": "Stand up the Hayle monitoring workspace",
+    "operationalLesson": "The first delivery needs to feel complete and readable even before repeat-survey change products exist.",
+    "consolidationGoal": "Keep the same interface pattern as the existing FutureScaping monitoring sites while trimming the first Hayle release to the assets already available."
+  },
+  "environment": {
+    "defaultLocationName": "Hayle Estuary",
+    "fallbackSurveyEndDate": "2026-07-17",
+    "weatherWindowMonths": 1,
+    "timezone": "Europe/London",
+    "tide": {
+      "latitude": "50.193015",
+      "longitude": "-5.432809",
+      "datum": "CD"
+    }
+  },
+  "navigation": {
+    "tabs": ["overview", "areas", "weather", "panorama", "fixedpoints", "layers", "sections"]
+  },
+  "branding": {
+    "overviewHeroImagePath": "/public/projects/hayle-estuary/assets/maps/branding/overview-hero-hayle-2026-07-17.png",
+    "niraModelsBySurvey": {
+      "2026-07-17": "https://futurescaping.nira.app/a/iYC-L2NGQr-ORDPrqEwGaw/1"
+    },
+    "panoramaEmbedsBySurvey": {
+      "2026-07-17": {
+        "area1": "https://hayle-estuary.netlify.app/",
+        "area2": "https://hayle-estuary.netlify.app/",
+        "area3": "https://hayle-estuary.netlify.app/"
+      }
+    },
+    "areaHeroImagesBySurvey": {
+      "2026-07-17": {
+        "area1": "/public/projects/hayle-estuary/assets/maps/branding/area-heroes/2026-07-17/area1.png",
+        "area2": "/public/projects/hayle-estuary/assets/maps/branding/area-heroes/2026-07-17/area2.png",
+        "area3": "/public/projects/hayle-estuary/assets/maps/branding/area-heroes/2026-07-17/area3.png"
+      }
+    }
+  },
+  "workflow": [
+    {
+      "stage": "1",
+      "title": "Load the baseline round",
+      "copy": "Use the Friday 17 July 2026 survey as the opening Hayle baseline."
+    },
+    {
+      "stage": "2",
+      "title": "Review imagery by area",
+      "copy": "Move through the three Hayle monitoring areas using the ortho, DSM, and contour outputs already imported from processing."
+    },
+    {
+      "stage": "3",
+      "title": "Use sections where ready",
+      "copy": "All three Hayle areas now have section profile CSVs linked into the baseline survey setup."
+    },
+    {
+      "stage": "4",
+      "title": "Add repeat monitoring later",
+      "copy": "When the next comparable survey is added, comparison-driven change reporting can be layered in without changing the site structure."
+    }
+  ]
+}

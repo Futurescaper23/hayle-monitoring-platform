@@ -1,0 +1,17 @@
+{
+  "surveys": [
+    {
+      "id": "2026-07-17",
+      "label": "Baseline Survey - 17 July 2026",
+      "shortDate": "17 Jul 2026",
+      "dateFrom": "2026-07-17",
+      "dateTo": "2026-07-17",
+      "status": "Baseline loaded",
+      "readiness": "single scan only",
+      "assetFolder": "hayle-estuary/2026-07-17",
+      "dataFolder": "2026-07-17",
+      "comparisonBaseline": null,
+      "notes": "Initial Hayle baseline created from the Friday 17 July 2026 survey round."
+    }
+  ]
+}

@@ -1,0 +1,553 @@
+{
+  "overviewModes": {
+    "information": {
+      "heroTitle": "Understanding how the Hayle Estuary baseline survey fits the wider monitoring goal",
+      "heroText": "This page explains what the Hayle baseline project is, why it was commissioned, how the first survey was carried out, and which practical limits or field realities shape the outputs shown through the monitoring system.",
+      "storyTitle": "Project Information",
+      "contentsSubtext": "Use this index to move through the project purpose, survey method, field realities, data limits, and how the Hayle baseline has been structured for future repeat monitoring.",
+      "story": [
+        {
+          "id": "about",
+          "title": "About the Project",
+          "paragraphs": [
+            "The Hayle Estuary Monitoring Project is a structured baseline drone survey commissioned by Hayle Harbour Authority and delivered by FutureScaping.",
+            "Its purpose is to create a measured starting point for understanding how the estuary changes over time, with particular focus on exposed sediment, sand movement, channel edges, and the practical value of repeat observation points.",
+            "This release is not yet a multi-round monitoring archive. It is the first baseline build, designed to prove the workflow, establish the spatial structure, and make later repeat surveys much easier to compare."
+          ]
+        },
+        {
+          "id": "why",
+          "title": "Why the Estuary is Being Monitored",
+          "paragraphs": [
+            "Hayle is a dynamic estuary environment where exposed ground, bar edges, and channels can change meaningfully through time.",
+            "For Hayle Harbour Authority, the practical value is not only in seeing that things move, but in understanding where the visible changes are happening, how future fixed observation photographs relate to measured data, and where more attention may be needed around navigation, sediment build-up, and wider estuary behaviour.",
+            "This first round is therefore both a baseline record and a way of testing how repeat photography, mapped surfaces, and fixed-section interpretation can work together in one monitoring system."
+          ]
+        },
+        {
+          "id": "process",
+          "title": "How the Survey Process Works",
+          "paragraphs": [
+            "The project uses drone photogrammetry to capture large numbers of overlapping aerial photographs across the estuary during low tide.",
+            "Those photographs are then processed into outputs such as high-resolution aerial imagery, DSM surfaces, contour-based views, section profiles, and 3D model screenshots that can be compared back to repeat observation photographs.",
+            "By keeping the structure consistent now, future repeat rounds can slot into the same layout and be compared far more easily than if each survey had to be interpreted in isolation."
+          ]
+        },
+        {
+          "id": "tide",
+          "title": "Why Low Tide Matters",
+          "paragraphs": [
+            "The project depends on surveying the estuary around low tide, because that is when the intertidal ground, sand features, and exposed surfaces are most visible.",
+            "That matters especially in Hayle because the monitoring value is strongest where later repeat photographs can be checked against visible sediment form and measured ground levels rather than against open water.",
+            "Even on a successful field day, the practical survey window is tighter than it first appears once travel, access, battery changes, launch positions, and the scale of the estuary are all taken into account."
+          ]
+        },
+        {
+          "id": "areas",
+          "title": "Why the Estuary is Shown in Three Areas",
+          "paragraphs": [
+            "The July 2026 survey was flown as multiple flight blocks, but those outputs have been grouped into three clearer monitoring areas for the frontend: the outer estuary, the central estuary, and the upper estuary.",
+            "This keeps the files lighter, preserves detail better, and makes the monitoring story easier to read than one oversized merged dataset.",
+            "The three-area structure also mirrors the way the estuary behaves physically, so each area can be reviewed as a distinct monitoring zone rather than as an arbitrary split."
+          ]
+        },
+        {
+          "id": "workflow",
+          "title": "How the Workflow Evolved in Practice",
+          "paragraphs": [
+            "The original aim was not simply to create maps, but to connect mapped outputs back to the way Hayle Harbour Authority already observes the estuary in practice.",
+            "That is why this system includes fixed observation points, aligned DJI Terra model screenshots, and section-profile tools rather than relying on a single image gallery or one general 3D model.",
+            "The baseline round has therefore been used to shape a monitoring workflow that future survey rounds can follow much more smoothly."
+          ]
+        },
+        {
+          "id": "challenges",
+          "title": "Operational Challenges on Site",
+          "paragraphs": [
+            "The first full Hayle survey showed clearly that exposed estuary ground is physically larger and softer than it often appears from desk planning alone.",
+            "Large sandy areas, changing water edges, and the need to work inside the right tide window all add pressure to the field workflow, even when the flying conditions themselves are good.",
+            "That matters because future repeat rounds will benefit from better launch logic, stronger route planning, and clearer expectations about how much useful ground can be captured inside one tide cycle."
+          ]
+        },
+        {
+          "id": "photogrammetry",
+          "title": "How Photogrammetry Helps Here",
+          "paragraphs": [
+            "Photogrammetry works by matching stable visual detail across large numbers of overlapping images so that wider mapped surfaces and 3D reconstructions can be built from them.",
+            "This works well where the ground is exposed, textured, and visually stable, which is exactly why low-tide sediment and estuary surfaces are such a strong fit for the method.",
+            "It also means the outputs can support more than simple viewing, because the same imagery can feed orthomosaics, elevation products, contour views, and fixed sections."
+          ]
+        },
+        {
+          "id": "water",
+          "title": "Why Open Water Is More Difficult",
+          "paragraphs": [
+            "One of the main technical limits is the difference between exposed land and moving water.",
+            "Photogrammetry depends on matching stable visual features from one image to the next. Water does not behave like that, because it is moving, reflecting light differently, and often offering very little fixed detail to match reliably.",
+            "For Hayle, that limitation is manageable because the most valuable monitoring information comes from the exposed intertidal ground rather than the deeper water itself."
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Understanding the Limits of the Data",
+          "paragraphs": [
+            "Like any monitoring method, drone photogrammetry has strengths and limitations.",
+            "The outputs are strongest where the surface is exposed, textured, stable, and clearly visible. They become less reliable near moving water, reflective edges, and places where the software cannot find stable reference detail.",
+            "The point of this project is not to pretend that every part of the estuary carries equal confidence. It is to use the method honestly where it is strongest and present the results in a way that remains useful for monitoring."
+          ]
+        },
+        {
+          "id": "outputs",
+          "title": "Why Different Output Types Exist",
+          "paragraphs": [
+            "No single output answers every monitoring question on its own. The aerial imagery is best for visible context, the DSM and contours help reveal terrain shape, sections show measured ground change along fixed lines, and the DJI Terra screenshots help tie the model back to repeat fixed photographs.",
+            "This mix is deliberate. It means the system can support quick visual review, more detailed interpretation, and later repeat-change analysis without forcing everything into one view type.",
+            "In practice, the strength of the Hayle system is that each tool supports a different part of the same monitoring story."
+          ]
+        }
+      ]
+    },
+    "help": {
+      "heroTitle": "How to move around the Hayle monitoring system confidently",
+      "heroText": "This help page explains where to start, what each menu section does, how the Hayle tools work, and how to move from broad estuary context into fixed observation, section, and comparison views without getting lost.",
+      "storyTitle": "Project Help",
+      "contentsSubtext": "Use this index to move through the navigation guide, fixed-point workflow, area tools, and common interpretation questions.",
+      "story": [
+        {
+          "id": "quick-start",
+          "title": "Quick Start",
+          "paragraphs": [
+            "If this is your first time using the project, start with Overview so you can understand the baseline round, the three monitored areas, and the main purpose of the work.",
+            "Then move into Survey Areas and Compare for broad visual review, Sections for fixed ground profiles, and Fixed Points when you want to connect the baseline model back to repeat observation photographs.",
+            "Open Information for the stable project story, Survey Notes for the July 2026 field-specific lessons, and Help whenever you need a plain-English guide."
+          ]
+        },
+        {
+          "id": "main-menu",
+          "title": "Main Menu Guide",
+          "paragraphs": [
+            "Overview is the broad starting point for the project. It gives the survey context, the current round summary, and the area-level structure.",
+            "Survey Areas lets you move into one monitored part of the estuary at a time. Weather shows tide and weather context for the selected survey round.",
+            "Compare, Sections, and Fixed Points are the main interpretation tools in this Hayle release. Information explains the wider project background, Survey Notes captures what was learned in the field, and Help explains how to use the system."
+          ]
+        },
+        {
+          "id": "areas",
+          "title": "Areas",
+          "paragraphs": [
+            "The Areas menu lets you jump directly into one of the three Hayle monitoring zones.",
+            "Current areas include A1 for the outer estuary and beach zone, A2 for the central estuary, and A3 for the upper estuary.",
+            "Use Areas when you want to focus on one physical part of the estuary and then switch into Compare, Sections, or other detail views from there."
+          ]
+        },
+        {
+          "id": "compare",
+          "title": "How to Use Compare",
+          "paragraphs": [
+            "Use Compare when you want to inspect aerial imagery, elevation colour, contours, or layered visual differences inside one workspace.",
+            "Single View is the cleanest place to start. Overlay and Swipe are useful when you want to inspect one shoreline, bar edge, or channel boundary closely.",
+            "In the Hayle baseline release there is only one survey round, so Compare is mainly about switching view types and inspecting the baseline carefully rather than comparing later rounds yet."
+          ]
+        },
+        {
+          "id": "sections",
+          "title": "How to Use Sections",
+          "paragraphs": [
+            "Open the Sections tab inside an area to view fixed section lines and their profile graphs.",
+            "Choose a section, see where that line runs across the map, and then follow the matching profile chart beneath it to understand how the ground rises and falls along that exact path.",
+            "Use Sections when you want measured terrain shape rather than a broad visual impression."
+          ]
+        },
+        {
+          "id": "fixed-points",
+          "title": "How to Use Fixed Observation Points",
+          "paragraphs": [
+            "Fixed Points is designed to connect the January 2026 reference photographs back to the July 2026 baseline model in a repeatable way.",
+            "Use the location map to choose a point, then compare the historic reference photographs against the aligned DJI Terra model screenshots. This makes it easier to tie visual observation back to the same named place each time.",
+            "The historic bathymetry context lower down the page is there as supporting background, but the main job of this section is to support repeat observation and future matched capture."
+          ]
+        },
+        {
+          "id": "weather",
+          "title": "How to Use Weather and Tide Context",
+          "paragraphs": [
+            "The Weather section gives supporting tide and weather context for the selected survey round.",
+            "Use it when you want to understand whether a feature may be influenced by tide stage, exposure window, or field conditions rather than by real geomorphic change.",
+            "This is especially useful in estuary work, where the timing of exposure matters almost as much as the imagery itself."
+          ]
+        },
+        {
+          "id": "important-notes",
+          "title": "Important Things to Understand",
+          "paragraphs": [
+            "Open water is not captured as reliably as exposed land or sediment, so some outputs are naturally stronger over dry intertidal ground than over deeper water.",
+            "The Hayle system is currently a baseline-first release. That means some tools already establish structure for future comparison, even where only one survey round is loaded today.",
+            "Different tools answer different questions, so it is normal to move between Compare, Sections, and Fixed Points when trying to understand one part of the estuary properly."
+          ]
+        },
+        {
+          "id": "common-questions",
+          "title": "Common Questions and Answers",
+          "paragraphs": [
+            "Where should I start? Start with Overview if you are new to the project.",
+            "How do I inspect one part of the estuary? Open Survey Areas and choose the area you want.",
+            "How do I see a measured line through the ground? Open an area and choose Sections.",
+            "How do I connect the model back to the January photographs? Open Fixed Points and choose the relevant observation location.",
+            "Where do I learn about the project itself? Open Information for the stable story or Survey Notes for field-specific learning."
+          ]
+        }
+      ]
+    }
+  },
+  "surveySpecificOverview": {
+    "2026-07-17": {
+      "heroTitle": "What the first Hayle baseline survey established",
+      "heroText": "This survey-specific view turns the first Hayle scan into a structured field record. It keeps the stable project story separate from what the team learned while carrying out the Friday 17 July 2026 baseline survey.",
+      "storyTitle": "Survey Round 1 Learnings",
+      "contentsSubtext": "Use this view to record what the baseline covered, what worked well, what field lessons mattered most, and what should be carried into the next Hayle survey round.",
+      "glance": [
+        ["High tide reference", "08:03 - 6.61 m | 20:23 - 6.86 m"],
+        ["Total mapped area", "1.71 km2"],
+        ["Survey dates", "17 July 2026"],
+        ["Low tide reference", "14:27 - 0.8 m"],
+        ["Images captured", "3,296 photos"],
+        ["Air time overall", "114.94 minutes"]
+      ],
+      "story": [
+        {
+          "id": "round1-purpose",
+          "title": "What This Baseline Round Proved",
+          "paragraphs": [
+            "The first Hayle survey proved that the estuary could be turned into a structured monitoring baseline rather than just a collection of one-off images.",
+            "It established the three-area frontend structure, confirmed that the imagery and model outputs were strong enough to support fixed observation comparison, and created the base system that later repeat rounds can plug into."
+          ]
+        },
+        {
+          "id": "round1-conditions",
+          "title": "What Worked Well on the Survey Day",
+          "paragraphs": [
+            "Conditions were close to ideal. Weather was clear, wind was low, and the survey sat well inside the intended low-tide working window.",
+            "Processing in DJI Terra aligned very cleanly, with no major distortions, no meaningful dry-ground gaps, and a strong baseline result across the exposed estuary surfaces.",
+            "That gave confidence not only in the orthomosaic and DSM, but also in the later fixed-point comparison workflow built from the model."
+          ]
+        },
+        {
+          "id": "round1-scale",
+          "title": "What the First Visit Made Clear on the Ground",
+          "paragraphs": [
+            "The first field day made the scale of the exposed estuary much clearer than desk planning alone could. Once the tide dropped, the sandy areas proved both larger and softer than expected in places.",
+            "That matters because route planning, launch position, and how far out the team can move across the exposed ground all shape how strong a repeat survey day can be."
+          ]
+        },
+        {
+          "id": "round1-structure",
+          "title": "Why the Three-Area Structure Helped",
+          "paragraphs": [
+            "Breaking the outputs into three monitoring areas worked well and should be kept.",
+            "It made the project easier to load, easier to review with clients, and clearer to interpret than one single oversized estuary dataset would have been.",
+            "It also created a sensible foundation for future comparison, because each area now represents a recognisable physical part of Hayle rather than an arbitrary file split."
+          ]
+        },
+        {
+          "id": "round1-fixedpoints",
+          "title": "Why the Fixed Observation Workflow Matters",
+          "paragraphs": [
+            "One of the most useful outcomes of the baseline round is that the model can now be tied back to the January 2026 reference photographs through named fixed observation points.",
+            "That means future monitoring can be more repeatable. Instead of relying only on visual memory or general site familiarity, the team can compare the same point through time against mapped evidence and measured terrain context."
+          ]
+        },
+        {
+          "id": "round1-limits",
+          "title": "What the Baseline Still Does Not Do",
+          "paragraphs": [
+            "This release is still a first-round baseline. It does not yet provide a true repeat-survey change archive, because there is no later Hayle round loaded alongside it.",
+            "Some tools are therefore already structurally ready for comparison, while the interpretation value will grow much more once repeat rounds are added."
+          ]
+        },
+        {
+          "id": "round1-next",
+          "title": "What Should Be Carried Into the Next Round",
+          "paragraphs": [
+            "The survey timing, overlap settings, clean processing route, and three-area structure should largely be repeated.",
+            "For a future Hayle repeat round, the main improvements would be to build directly on the launch and access lessons from this baseline, refine how fixed-point screenshots are captured during processing, and keep the same structure so later comparison becomes straightforward rather than messy."
+          ]
+        }
+      ]
+    }
+  },
+  "panoramaGuides": {
+    "area1": {
+      "summary": "Baseline panorama slot for Hayle Area 1.",
+      "stats": [
+        ["Main focus", "Area context", "Use this slot once the hosted panorama for Area 1 is ready."],
+        ["Best for", "Orientation", "A panorama here will help clients connect the mapped outputs to what the area feels like on the ground."]
+      ],
+      "details": [
+        ["What to look for", "Use the panorama to point out the main shoreline, channel, or exposed-ground features that matter in Area 1."],
+        ["Why it matters", "This will give a quick visual bridge between the flat imagery and the measured section profiles."],
+        ["Client takeaway", "Area 1 can already combine imagery and sections, so a panorama here will strengthen the story further."]
+      ]
+    },
+    "area2": {
+      "summary": "Baseline panorama slot for Hayle Area 2.",
+      "stats": [
+        ["Main focus", "Area context", "Use this slot once the hosted panorama for Area 2 is ready."],
+        ["Best for", "Orientation", "A panorama here will help clients connect the mapped outputs to what the area feels like on the ground."]
+      ],
+      "details": [
+        ["What to look for", "Use the panorama to point out the main shoreline, channel, or exposed-ground features that matter in Area 2."],
+        ["Why it matters", "This will give a quick visual bridge between the flat imagery and the measured section profiles."],
+        ["Client takeaway", "Area 2 is already sections-ready, so a panorama here will strengthen the story further."]
+      ]
+    },
+    "area3": {
+      "summary": "Baseline panorama slot for Hayle Area 3.",
+      "stats": [
+        ["Main focus", "Area context", "Use this slot once the hosted panorama for Area 3 is ready."],
+        ["Best for", "Orientation", "A panorama here will help clients connect the mapped outputs to what the area feels like on the ground."]
+      ],
+      "details": [
+        ["What to look for", "Use the panorama to point out the main shoreline, channel, or exposed-ground features that matter in Area 3."],
+        ["Why it matters", "This will complement the baseline imagery and newly linked section profile for Area 3."],
+        ["Client takeaway", "Area 3 now has the same baseline imagery-plus-sections setup as the other two Hayle areas."]
+      ]
+    }
+  },
+  "fixedPoints": {
+    "summary": "This workspace brings together the fixed observation points supplied for Hayle so the team can anchor repeat screenshots, measured heights, and before-and-after evidence to the same named locations each time.",
+    "mapImagePath": "/public/projects/hayle-estuary/assets/fixed-points/fixed-point-location-map.jpg",
+    "mapImageAlt": "Fixed point location map supplied for Hayle estuary observation points.",
+    "referenceDocuments": [
+      {
+        "label": "2021 Bathy Reference",
+        "path": "/public/projects/hayle-estuary/assets/fixed-points/2021-bathy.docx",
+        "description": "Historic bathymetry material supplied with the fixed-point pack."
+      },
+      {
+        "label": "December 2024 Bathy Reference",
+        "path": "/public/projects/hayle-estuary/assets/fixed-points/2024-bathy.docx",
+        "description": "Later bathymetry reference supplied with the fixed-point pack."
+      }
+    ],
+    "referenceImages": [
+      {
+        "label": "2021 Bathymetry",
+        "badge": "December 2021",
+        "title": "Historic Bathymetry Surface",
+        "summary": "Post-navigation dredge bathymetry surface from December 2021, useful as the earlier context layer for the monitored estuary reach.",
+        "caption": "Historic MBES bathymetry with mapped height colouring from December 2021.",
+        "eyebrow": "Historic bathymetry",
+        "alt": "December 2021 Hayle bathymetry surface over the estuary map.",
+        "src": "/public/projects/hayle-estuary/assets/fixed-points/reference-images/2021-bathy/2021-bathy.png"
+      },
+      {
+        "label": "2024 Bathymetry",
+        "badge": "December 2024",
+        "title": "Later Bathymetry Surface",
+        "summary": "Later bathymetry context from December 2024, giving a more recent pre-baseline picture before the January 2026 fixed observation references.",
+        "caption": "Later bathymetry surface with contour labels and colour classes from December 2024.",
+        "eyebrow": "Historic bathymetry",
+        "alt": "December 2024 Hayle bathymetry surface over the estuary map.",
+        "src": "/public/projects/hayle-estuary/assets/fixed-points/reference-images/2024-bathy/2024-bathy.png"
+      }
+    ],
+    "points": [
+      {
+        "id": "fp1",
+        "number": 1,
+        "title": "Harvey's Towans Car Park",
+        "areaHint": "Towans / outer estuary edge",
+        "map": { "x": 54, "y": 26 },
+        "summary": "Northern fixed point near Harvey's Towans, intended as a repeatable observation location for later model screenshots and checked heights.",
+        "whyItMatters": "Useful as a stable outer-estuary reference that can be revisited with matching orientation on later surveys.",
+        "nextCapture": "Capture the equivalent DJI Terra or Nira view here and record the current height against the same point.",
+        "images": [
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/point-1-a.jpg",
+            "label": "January 2026 reference A",
+            "comparisonHeading": "South East Elevation"
+          },
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/point-1-b.jpg",
+            "label": "January 2026 reference B",
+            "comparisonHeading": "South East Elevation"
+          }
+        ],
+        "modelImages": [
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/model-screenshots/point-1-model-a.png",
+            "label": "DJI Terra matched model view A"
+          },
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/model-screenshots/point-1-model-b.png",
+            "label": "DJI Terra matched model view B"
+          }
+        ]
+      },
+      {
+        "id": "fp2",
+        "number": 2,
+        "title": "End of South Quay",
+        "areaHint": "Inner harbour edge",
+        "map": { "x": 69, "y": 52 },
+        "summary": "South Quay observation point positioned to create a repeatable record across the inner harbour side of the estuary.",
+        "whyItMatters": "Lets us compare later screenshots and point heights against a named built-edge reference rather than a one-off viewpoint.",
+        "nextCapture": "Match the South Quay view in the current model and note the measured height at the same fixed point.",
+        "images": [
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/point-2-a.jpg",
+            "label": "January 2026 reference A"
+          },
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/point-2-b.jpg",
+            "label": "January 2026 reference B"
+          }
+        ],
+        "modelImages": [
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/model-screenshots/point-2-model-a.png",
+            "label": "DJI Terra matched model view A"
+          },
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/model-screenshots/point-2-model-b.png",
+            "label": "DJI Terra matched model view B"
+          }
+        ]
+      },
+      {
+        "id": "fp3",
+        "number": 3,
+        "title": "Middle Weir End of Spit",
+        "areaHint": "Central channel / spit edge",
+        "map": { "x": 50, "y": 37 },
+        "summary": "Central fixed point at the end of the spit near Middle Weir, set up as one of the core repeat shoreline references.",
+        "whyItMatters": "Strong candidate for side-by-side screenshots because it sits close to active channel and spit movement.",
+        "nextCapture": "Add the current model screenshot for this exact spit point and log the matching extracted height.",
+        "images": [
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/point-3-a.jpg",
+            "label": "January 2026 reference A"
+          },
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/point-3-b.jpg",
+            "label": "January 2026 reference B"
+          }
+        ],
+        "modelImages": [
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/model-screenshots/point-3-model-a.png",
+            "label": "DJI Terra matched model view A"
+          },
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/model-screenshots/point-3-model-b.png",
+            "label": "DJI Terra matched model view B"
+          }
+        ]
+      },
+      {
+        "id": "fp4",
+        "number": 4,
+        "title": "Chapel Anjou Lower",
+        "areaHint": "Lower Chapel Anjou / navigational aid",
+        "map": { "x": 47, "y": 31 },
+        "summary": "Lower Chapel Anjou observation point referenced against the navigational aid location noted in the supplied January deck.",
+        "whyItMatters": "Helps tie later views back to a named marker already being used operationally on site.",
+        "nextCapture": "Capture the lower Chapel Anjou point in the current model and record the exact height at the same mapped location.",
+        "images": [
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/point-4-a.jpg",
+            "label": "January 2026 reference A"
+          },
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/point-4-b.jpg",
+            "label": "January 2026 reference B"
+          }
+        ],
+        "modelImages": [
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/model-screenshots/point-4-model-a.png",
+            "label": "DJI Terra matched model view A"
+          },
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/model-screenshots/point-4-model-b.png",
+            "label": "DJI Terra matched model view B"
+          }
+        ]
+      },
+      {
+        "id": "fp5",
+        "number": 5,
+        "title": "Navigation Pole No. 5",
+        "areaHint": "Channel marker / cliff behind",
+        "map": { "x": 43, "y": 25 },
+        "summary": "Fixed observation point tied to Navigation Pole No. 5, with the January pack describing the cliff behind as the viewing reference.",
+        "whyItMatters": "A practical, named marker for repeat capture where a current model screenshot should be easy to align later.",
+        "nextCapture": "Use the same pole location to frame the current model screenshot and save the matched height.",
+        "images": [
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/point-5-a.jpg",
+            "label": "January 2026 reference"
+          }
+        ],
+        "modelImages": [
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/model-screenshots/point-5-model.png",
+            "label": "DJI Terra matched model view"
+          }
+        ]
+      },
+      {
+        "id": "fp6",
+        "number": 6,
+        "title": "Chapel Anjou Upper",
+        "areaHint": "Upper Chapel Anjou / pillbox side",
+        "map": { "x": 40, "y": 24 },
+        "summary": "Upper Chapel Anjou observation point, intended as the higher paired reference above the lower Chapel Anjou location.",
+        "whyItMatters": "Complements the lower Chapel Anjou point and should help track change across the same local reach from two known anchors.",
+        "nextCapture": "Match the upper Chapel Anjou viewpoint in the current model and note the derived height at the point.",
+        "images": [
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/point-6-a.jpg",
+            "label": "January 2026 reference A"
+          },
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/point-6-b.jpg",
+            "label": "January 2026 reference B"
+          }
+        ],
+        "modelImages": [
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/model-screenshots/point-6-model-a.png",
+            "label": "DJI Terra matched model view A"
+          },
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/model-screenshots/point-6-model-b.png",
+            "label": "DJI Terra matched model view B"
+          }
+        ]
+      },
+      {
+        "id": "fp7",
+        "number": 7,
+        "title": "Lelant Path",
+        "areaHint": "Lelant side / inner approach",
+        "map": { "x": 46, "y": 39 },
+        "summary": "Lelant Path observation point looking back toward the inner harbour, supplied as the seventh fixed reference in the January deck.",
+        "whyItMatters": "Useful for a repeat human-scale shoreline reference on the Lelant side of the estuary.",
+        "nextCapture": "Add a current model screenshot snapped from the same Lelant Path point and record the height at that exact location.",
+        "images": [
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/point-7-a.jpg",
+            "label": "January 2026 reference"
+          }
+        ],
+        "modelImages": [
+          {
+            "src": "/public/projects/hayle-estuary/assets/fixed-points/january-2026/model-screenshots/point-7-model.png",
+            "label": "DJI Terra matched model view"
+          }
+        ]
+      }
+    ]
+  }
+}

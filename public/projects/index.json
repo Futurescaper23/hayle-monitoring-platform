@@ -1,0 +1,15 @@
+{
+  "defaultProjectId": "hayle-estuary",
+  "projects": [
+    {
+      "id": "hayle-estuary",
+      "name": "Hayle Estuary Monitoring System",
+      "status": "Baseline survey loaded",
+      "summary": "Single-survey Hayle workspace with three monitoring areas and sections enabled where exports are already available.",
+      "projectPath": "/public/projects/hayle-estuary/project.json",
+      "areasPath": "/public/projects/hayle-estuary/areas.json",
+      "scansPath": "/public/projects/hayle-estuary/scans.json",
+      "contentPath": "/public/projects/hayle-estuary/content.json"
+    }
+  ]
+}

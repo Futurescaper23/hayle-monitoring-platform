@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .label-bg { fill: rgba(8, 18, 39, 0.82); stroke: rgba(125, 170, 255, 0.2); stroke-width: 0.4; }
+      .label-text { font: 700 3px "Segoe UI", sans-serif; dominant-baseline: middle; text-anchor: middle; }
+    </style>
+  </defs>
+  <line x1="13.0" y1="15.0" x2="30.0" y2="82.0" stroke="#5c9cff" stroke-width="0.7" stroke-linecap="round"/>
+  <line x1="38.0" y1="10.0" x2="57.0" y2="82.0" stroke="#ff6092" stroke-width="0.7" stroke-linecap="round"/>
+  <line x1="67.0" y1="22.0" x2="84.0" y2="76.0" stroke="#ffd23e" stroke-width="0.7" stroke-linecap="round"/>
+  <g transform="translate(21.5,48.5)">
+    <ellipse class="label-bg" rx="4.6" ry="2.7"/>
+    <text class="label-text" fill="#5c9cff">S1</text>
+  </g>
+  <g transform="translate(47.5,46)">
+    <ellipse class="label-bg" rx="4.6" ry="2.7"/>
+    <text class="label-text" fill="#ff6092">S2</text>
+  </g>
+  <g transform="translate(75.5,49)">
+    <ellipse class="label-bg" rx="4.6" ry="2.7"/>
+    <text class="label-text" fill="#ffd23e">S3</text>
+  </g>
+</svg>
