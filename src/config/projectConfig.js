@@ -2,7 +2,7 @@ export const projectConfig = {
   productName: "FutureScaping Monitoring Platform",
   branding: {},
   deployment: {
-    publicBaseUrl: "https://future-monitoring-system.onrender.com/"
+    publicBaseUrl: "https://hayle-estuary-monitoring.onrender.com/"
   },
   defaultState: {
     areaId: "area1",
