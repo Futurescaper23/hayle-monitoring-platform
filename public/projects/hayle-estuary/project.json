@@ -30,7 +30,7 @@
     }
   },
   "navigation": {
-    "tabs": ["overview", "areas", "weather", "panorama", "fixedpoints", "layers", "sections"]
+    "tabs": ["overview", "areas", "weather", "panorama", "fixedpoints", "layers", "sections", "admin"]
   },
   "branding": {
     "overviewHeroImagePath": "/public/projects/hayle-estuary/assets/maps/branding/overview-hero-hayle-2026-07-17.png",
